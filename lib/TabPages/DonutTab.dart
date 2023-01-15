@@ -2,11 +2,6 @@ import 'package:donutapp/FoodTile.dart';
 import 'package:flutter/material.dart';
 
 class DonutTab extends StatelessWidget {
-  List<List> foodLitst = 
-  [
-    
-
-  ];
   List donutList = [
     //Todo (donutFlavor,donutPrice,donutColor,imgPath)
     ['Chocolat', '27', Colors.brown, 'assets/ChocolatDonut.png'],
@@ -14,14 +9,6 @@ class DonutTab extends StatelessWidget {
     ['Kiwi', '60', Colors.green, 'assets/KiwiDonut.png'],
     ['Strawberry', '39', Colors.red, 'assets/StrawberryDonut.png'],
   ];
-  List burgerList = [
-    //Todo (donutFlavor,donutPrice,donutColor,imgPath)
-    ['Chocolat', '27', Colors.brown, 'assets/ChocolatDonut.png'],
-    ['Ice Cream', '45', Colors.blue, 'assets/IceCreamDonut.png'],
-    ['Kiwi', '60', Colors.green, 'assets/KiwiDonut.png'],
-    ['Strawberry', '39', Colors.red, 'assets/StrawberryDonut.png'],
-  ];
-
   @override
   Widget build(BuildContext context) {
     return GridView.builder(

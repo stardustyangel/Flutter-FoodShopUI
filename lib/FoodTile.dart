@@ -5,6 +5,7 @@ class FoodTile extends StatelessWidget {
   final String? price;
   final foodColor;
   final String? imgPath;
+
   FoodTile(
       {super.key,
       required this.flavor,
@@ -55,7 +56,7 @@ class FoodTile extends StatelessWidget {
             Text(flavor!,
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
             SizedBox(height: 5),
-            Text('Dunkins',
+            Text('iEAT',
                 style: TextStyle(fontSize: 12, color: Colors.grey[700])),
             SizedBox(
               height: 12,

@@ -26,10 +26,10 @@ class _HomePageState extends State<HomePage> {
     MyTab(iconPath: 'assets/Types/smoothie.png'),
 
     //Pancack Tab
-    MyTab(iconPath: 'assets/Types/pancake.png'),
+    MyTab(iconPath: 'assets/Types/pancakes.png'),
 
     // Pizza Tab
-    MyTab(iconPath: 'assets/Types/pizza-slice.png'),
+    MyTab(iconPath: 'assets/Types/pizza.png'),
   ];
   @override
   Widget build(BuildContext context) {
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
               height: 24,
             ),
             //Todo TabBar
-            TabBar(tabs: tabList),
+            TabBar(tabs: tabList,indicatorSize: TabBarIndicatorSize.label,),
             //Todo TabBarView
             Expanded(
                 child: TabBarView(children: [
